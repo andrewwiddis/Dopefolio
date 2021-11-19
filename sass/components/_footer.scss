@@ -4,7 +4,7 @@
   &__upper {
     display: flex;
     justify-content: space-between;
-    padding: 8rem 0;
+    padding: 3rem 0;
     @include respond(tab-port) {
       padding: 6rem 0;
     }
@@ -29,28 +29,30 @@
   }
 
   &__short-desc {
-    margin-top: 2rem;
-    color: #eee;
-    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 0rem;
+    color: #fff;
+    font-size: 1.8rem;
     line-height: 1.7;
   }
 
   &__social-cont {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
 
   &__icon {
-    margin-right: 1rem;
-    width: 2.5rem;
-    &--mr-none {
+    margin-top: 0rem;
+    margin-right: 2.5rem;
+    width: 2rem;
+  &--mr-none {
       margin-right: 0;
     }
   }
 
   &__lower {
-    padding: 4rem 0;
-    border-top: 1px solid #444;
-    color: #eee;
+    padding: 2rem 0;
+    border-top: 1px solid #fff;
+    color: #fff;
     font-size: 1.2rem;
     text-align: left;
     text-align: center;

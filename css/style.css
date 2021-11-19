@@ -103,7 +103,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #615652;
+    background: #000000;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -155,12 +155,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #615652;
+    background: #000000;
     color: #fff; }
   .btn--theme-inv {
-    color: #615652;
+    color: #000000;
     background: #fff;
-    border: 2px solid #615652;
+    border: 2px solid #000000;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -185,7 +185,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(97, 86, 82, 0.8), rgba(97, 86, 82, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -198,8 +198,8 @@ textarea {
   .home-hero__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
+    border: 2px solid #fff;
+    border-left: 2px solid #fff;
     transform: translateY(-50%); }
     @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
@@ -221,7 +221,7 @@ textarea {
     border-bottom: 2px solid #eee;
     transition: background .3s; }
     .home-hero__social-icon-link:hover {
-      background: rgba(255, 255, 255, 0.1); }
+      background: #000000; }
     .home-hero__social-icon-link--bd-none {
       border-bottom: 0; }
   .home-hero__social-icon {
@@ -265,7 +265,7 @@ textarea {
           font-size: 2.4rem; } }
     .about__content-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: #000000;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -314,7 +314,7 @@ textarea {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
-      color: grey;
+      color: #000000;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 3rem; }
@@ -323,7 +323,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(97, 86, 82, 0.8), rgba(97, 86, 82, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -345,7 +345,7 @@ textarea {
       .contact__form-field {
         margin-bottom: 3rem; } }
   .contact__form-label {
-    color: #666;
+    color: #000000;
     font-size: 1.4rem;
     letter-spacing: 1px;
     font-weight: 700;
@@ -353,13 +353,13 @@ textarea {
     display: block;
     text-align: left; }
   .contact__form-input {
-    color: #333;
+    color: #000000;
     padding: 2rem;
     width: 100%;
     border: 1px solid #ebebeb;
     font-size: 1.6rem;
     letter-spacing: 0px;
-    background: #f0f0f0;
+    background: #000000;
     border-radius: 5px;
     font-weight: 600;
     /* Code for Modern Browsers */
@@ -373,11 +373,11 @@ textarea {
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-webkit-input-placeholder {
-      color: #999;
+      color: #000000;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input:-ms-input-placeholder {
-      color: #999;
+      color: #000000;
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-ms-input-placeholder {
@@ -403,8 +403,8 @@ textarea {
         width: 100%; } }
 
 .project-cs-hero {
-  color: #fff;
-  background: linear-gradient(to right, rgba(97, 86, 82, 0.8), rgba(97, 86, 82, 0.8)), url(../../assets/svg/common-bg.svg);
+  color: #000000;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -459,7 +459,7 @@ textarea {
   .project-details__desc-para {
     font-size: 1.8rem;
     line-height: 1.7;
-    color: grey;
+    color: #000000;
     margin-bottom: 2rem; }
 
 .project-details__tools-used {
@@ -475,7 +475,7 @@ textarea {
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777; }
+    color: #000000; }
 
 .project-details__links {
   margin: 0 0; }
@@ -497,8 +497,8 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
   background: #fff;
+  background: #000;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -512,17 +512,17 @@ textarea {
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: #fff;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #615652; }
+      color: #000000; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #615652; }
+    background: #000000; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
@@ -548,13 +548,13 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #615652; }
+      color: #000000; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -593,7 +593,7 @@ textarea {
     text-decoration: none;
     padding: 2.5rem 3rem;
     font-size: 1.6rem;
-    color: #333;
+    color: #fff;
     text-align: right;
     border-bottom: 1px solid #eee;
     font-weight: 700;
@@ -601,7 +601,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #615652; }
+      color: #000000; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
@@ -613,7 +613,7 @@ textarea {
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
-    padding: 8rem 0; }
+    padding: 3rem 0; }
     @media only screen and (max-width: 56.25em) {
       .main-footer__upper {
         padding: 6rem 0; } }
@@ -633,21 +633,23 @@ textarea {
       .main-footer__row-2 {
         width: 100%; } }
   .main-footer__short-desc {
-    margin-top: 2rem;
-    color: #eee;
-    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 0rem;
+    color: #fff;
+    font-size: 1.8rem;
     line-height: 1.7; }
   .main-footer__social-cont {
-    margin-top: 2rem; }
+    margin-top: 0.5rem; }
   .main-footer__icon {
-    margin-right: 1rem;
-    width: 2.5rem; }
+    margin-top: 0rem;
+    margin-right: 2.5rem;
+    width: 2rem; }
     .main-footer__icon--mr-none {
       margin-right: 0; }
   .main-footer__lower {
-    padding: 4rem 0;
-    border-top: 1px solid #444;
-    color: #eee;
+    padding: 2rem 0;
+    border-top: 1px solid #fff;
+    color: #fff;
     font-size: 1.2rem;
     text-align: left;
     text-align: center; }
@@ -663,14 +665,15 @@ textarea {
   display: flex;
   flex-wrap: wrap; }
   .skills__skill {
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
+    width: 150px;
+    height: 100px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0.2rem;
     font-size: 1.6rem;
-    background: rgba(153, 153, 153, 0.2);
-    border-radius: 5px;
+    background: #000000;
     font-weight: 600;
-    color: #777; }
+    color: #ffffff; }
 
 .mouse {
   width: 25px;

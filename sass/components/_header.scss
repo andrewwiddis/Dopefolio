@@ -2,8 +2,8 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
   background: #fff;
+  background: #000;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 
   &__content {
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: #fff;
     transition: color .3s;
 
     &:hover {
@@ -64,7 +64,7 @@
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -124,7 +124,7 @@
       text-decoration: none;
       padding: 2.5rem 3rem;
       font-size: 1.6rem;
-      color: #333;
+      color: #fff;
       text-align: right;
       border-bottom: 1px solid #eee;
       font-weight: 700;
