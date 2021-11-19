@@ -2,8 +2,8 @@
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
+      #240c0c, 0.8),
+      #5c4632, 0.8)
     ),
     url(../../assets/svg/common-bg.svg);
   background-position: center;
@@ -155,10 +155,10 @@
       object-fit: cover;
     }
     &-content {
-      padding: 2rem 0;
+      padding: 0rem 0;
       display: flex;
-      justify-content: center;
-      flex-direction: column;
+      justify-content: left;
+      flex-direction: row;
       align-items: flex-start;
 
       @include respond(tab-port) {
@@ -239,7 +239,7 @@
     font-weight: 600;
     /* Code for Modern Browsers */
     &::placeholder {
-      color: #999;
+      color: #000;
       font-weight: 600;
       font-size: 1.6rem;
     }
